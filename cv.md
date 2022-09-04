@@ -2,7 +2,8 @@ Mikhail Zheltyshev
 ======
 
 #### RS School student 
-###### [ mihalich93@bk.ru ]
+###### Email: [ mihalich93@bk.ru ]
+###### Discord: [@mihalichzh]
 
 
 Education
@@ -24,7 +25,7 @@ Experience
 
 **Software Engineer in Test, Wrike** (Aug 2020 - Apr 2021 , Saint-Petersburg, Russia)
 
-- Worked as a member of separated SDET team. Was mainly concentrated on automated UI testing for internal UI-KIT team (including accessibility testing). Technologies stack - Java, HTMLElements (Selenium Wrapper), AXE (lib for accessibility testing automation), Gradle, TeamCity/Gitlab.
+- Worked as a member of separated SDET team. Was mainly concentrated on automated UI testing for internal UI-KIT team (including accessibility testing). Technologies stack - Java, HTMLElements (Selenium Wrapper), AXE (lib for accessibility testing automation), Retrofit, Gradle, TeamCity/Gitlab.
 
 **Test Automation Engineer, EPAM Systems** (Dec 2018 - Aug 2020 , Saint-Petersburg, Russia)
 
@@ -33,3 +34,31 @@ Experience
 **QA Engineer, Siber Systems** (Mar 2018 - Dec 2018 , Saint-Petersburg, Russia)
 
 - Manual and automated testing of IOS and MacOs clients of password manager application Roboform. Analyzed, Designed and Executed various test documentation and related activities. Participated in working on test automation framework for both mobile (Java + Appium) and desktop (Python + AppleScript) applications.
+
+Skills
+------
+**English level:** B2
+
+**Programming:** Java, Kotlin, Groovy, TS, SQL
+
+**Tools:** Junit 4/5, Gradle, Maven, RestAssured, Retrofit, Spring, JDBC, Selenium, Docker, Gitlab, TeamCity, Scrum, Kanban, Git
+
+Courser and Trainings
+---------------------
+**ISTQB Certified Tester Foundation Level**, 2019
+**Oracle Certified Associate, Java SE 8 Programmer**, 2019
+**AWS Certified Developer - Associate**, 2020
+
+Code Example
+------------
+```
+import kotlin.math.abs
+
+fun elevator(left: Int, right: Int, call: Int): String {
+    return if (abs(left - call) < abs(right - call)) {
+        "left"
+    } else {
+        "right"
+    }
+}
+```
